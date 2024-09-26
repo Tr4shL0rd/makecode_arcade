@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="uQA_-Q6d6)Y/U];KqH^^">Player</variable><variable type="KIND_SpriteKind" id="9BO~nbpsC_~q66Pdt_na">Projectile</variable><variable type="KIND_SpriteKind" id="Z=TXYv!71M!8W^fP2d}9">Food</variable><variable type="KIND_SpriteKind" id="teSq=}QJ(Q[a6*(RHDbG">Enemy</variable><variable id="#;Ll~=hbAVMV|7rxasL_">mySprite</variable><variable id="Cf~sq7v((%Sor#(KRe6,">player_sprite</variable></variables><block type="pxt-on-start" id="H]Y${Z@[)1,I5t.GeU0Z" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id=":T`]MQE#QU$?l`C6K1#T"><field name="VAR" id="Cf~sq7v((%Sor#(KRe6,">player_sprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id=";EsYI|]RjQ0][gX3[R3X"><value name="img"><shadow type="screen_image_picker" id="};JnuQs(Ke`.hu#%~$Lo"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . 3 . . . 3 . . . . . . 
+. . . . . 3 . . . 3 . . . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . 3 3 3 3 3 . . . . . . 
+. . . . 3 . 3 3 3 . 3 . . . . . 
+. . . 3 . . 3 3 3 . . 3 . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . 3 . . . 3 . . . . . . 
+. . . . 3 . . . . . 3 . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"};JnuQs(Ke`.hu#%~$Lo"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="|;C_MNb:4*0Mo?QPIY;p"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="kQhI|a;duSTn!Xwev*z/"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="^]bpz3r]N_QD:2L8UV%9"><field name="VAR" id="Cf~sq7v((%Sor#(KRe6,">player_sprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="i}MiGsi9PnM!P2A7DnC7"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="b,lOj`9F*Ek(V{sPA/A2"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
